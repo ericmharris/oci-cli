@@ -28,20 +28,20 @@ with open_relative("README.rst") as f:
     readme = f.read()
 
 requires = [
-    'oci==2.0.5',
-    'arrow==0.10.0',
+    'oci',
+    'arrow',
     'certifi',
-    'click==6.7',
-    'configparser==3.5.0',
-    'cryptography==2.1.3',
-    'httpsig_cffi==15.0.0',
-    'jmespath==0.9.3',
-    'python-dateutil==2.7.3',
-    'pytz==2016.10',
-    'retrying==1.3.3',
-    'six==1.11.0',
-    'terminaltables==3.1.0',
-    'idna>=2.5,<2.7'
+    'click',
+    'configparser',
+    'cryptography',
+    'httpsig_cffi',
+    'jmespath',
+    'python-dateutil',
+    'pytz',
+    'retrying',
+    'six',
+    'terminaltables',
+    'idna'
 ]
 
 fips_libcrypto_file = os.getenv("OCI_CLI_FIPS_LIBCRYPTO_FILE")
